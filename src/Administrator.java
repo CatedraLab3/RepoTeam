@@ -2,22 +2,22 @@
  * Created by jiacontrerasp on 6/18/15.
  */
 public class Administrator {
-    String permissions;
-    String role;
+    private String permissions;
+    private String role;
 
-    public void addPermissions(String permissions) {
+    public String getPermissions() {
+        return permissions;
+    }
+
+    public void setPermissions(String permissions) {
         this.permissions = permissions;
     }
 
-    public void addRole(String role) {
-        this.role = role;
+    public String getRole() {
+        return role;
     }
 
-    public void removePermissions(String permissions) {
-        this.permissions = permissions;
-    }
-
-    public void removeRole(String role) {
+    public void setRole(String role) {
         this.role = role;
     }
 }
