@@ -4,6 +4,8 @@
 public class Administrator {
     String permissions;
     String role;
+    User user;
+
 
     public void addPermissions(String permissions) {
         this.permissions = permissions;

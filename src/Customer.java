@@ -5,6 +5,7 @@ public class Customer {
     long creditCard;
     private String[] interests;
     String postalAddress;
+    User user;
 
 
     public void addInterests(String[] interests) {
